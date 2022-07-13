@@ -1,0 +1,249 @@
+
+
+/* Slider */
+      .background-size-cover{
+      	
+      }
+      .homepage-slideshow .hero__content{
+      	max-width:initial;
+      }
+      .homepage-slideshow .hero__title{
+      	font-size:55px;
+        font-weight:300;
+        font-family: var(--font_jost);
+      }
+      .homepage-slideshow .hero__description{
+      	font-size: 70px;
+        font-weight: 600;
+        font-family: var(--font_jost);
+        margin-top:0;
+      }
+      .homepage-slideshow .hero__description span{
+        color:#000;
+      	text-shadow: 0 0 2px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+      }
+      .homepage-slideshow .hero__btn{
+      	font-size:20px;
+        font-weight:500;
+        font-family:var(--font_poppins);
+      }
+      
+      
+      /*Colllection Carousel*/
+      
+      .index-tab-collections .grid__heading{
+      	text-align:left!important;
+        padding-left:0;
+        font-size: 45px;
+        font-weight: 500;
+        font-family: var(--font_jost);
+              padding-bottom: 10px;
+      }
+      .index-tab-collections .cat-slider-btn{
+      	margin-bottom:15px;
+        color:var(--green);
+        text-decoration:underline;
+      }
+      .index-tab-collections .tabs-collections{
+      	margin-top:15px;
+      }
+      
+      
+      .product-grid.flickity-enabled .product-item{
+      	    margin-right: 15px;
+        border:none;
+            width: 24%!important;
+      }
+      .product-grid.flickity-enabled .product-item:before{
+      	content:none;
+      }
+      .product-grid.flickity-enabled .product-item:nth-child(odd) {
+      	
+      }
+      
+      
+      #brick-section--template--15855248703714__1657030780231524c0 .brick__block__text{      
+      	padding-right:300px;
+      }
+      #brick-section--template--15855248703714__1657030780231524c0 .brick__block__text h2{
+      	font-family:var(--font_jost);
+        font-weight: 600;
+        color: #000;
+        padding-right: 58px;
+        font-size: 39px;
+      }
+      
+      #shopify-section-template--16208996565218__16487448421dc75f85{
+      	padding-bottom:60px;
+      }
+      #shopify-section-template--16208996565218__1648744749985398a7 .hero__content{
+      	margin-left: 226px;
+        margin-bottom: 96px;
+      }
+      #shopify-section-template--16208996565218__1648744749985398a7 .hero__title{
+      	font-size:55px;
+        font-weight:600;
+        font-family:var(--font_jost);
+      }
+      #shopify-section-template--16208996565218__1648744749985398a7 .hero__description{
+      	font-size:19px;
+        font-weight:500;
+        font-family:var(--font_poppins);
+      }
+      #shopify-section-template--16208996565218__1648744749985398a7 .hero__description span{
+      	font-size:30px;
+        font-weight:600;
+        padding-left:10px;
+      }
+      
+      
+      #shopify-section-template--16208996565218__16487690723d3bc015 .grid__heading{
+      	text-align:center!important;
+      }
+      
+      .insta-heading{
+      	font-weight:500;
+            margin-bottom: 35px;
+      }
+      
+      .footer-txt{
+      	margin-top:25px;
+        margin-bottom:25px;
+      }
+      
+      .footer__social li{
+      	width: 35px;
+    height: 35px;
+    background: #1A1A1A;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+      }
+      .footer__social li:hover{
+      	background:#414F24;
+      }
+      .footer__social li svg:hover {
+          fill: var(--white);
+      }
+      
+      .site-footer-wrapper a:hover{
+      	color:var(--green);
+      }
+      
+      .footer__copyright{
+      	text-align:center;
+      }
+      
+      .site-footer-wrapper .input-group.newsletter-form .input-group-btn .btn{
+      	background-color:var(--green);
+          color:var(--white);
+      }
+      
+      
+      .template-collection .wide-image, .template-collection .image__hero__frame{
+      	min-height:500px!important;
+      }
+      
+      .template-collection .hero__content{
+      	margin-left:0;
+        background-color:rgba(57, 84, 0, 0.41)!important;
+      }
+      .template-collection .hero__content .hero__title, .template-collection .hero__content .hero__description{
+      	font-family:var(--font_jost);
+      	color:#fff;
+      }
+      
+      
+      .template-collection .product-item--borderless{
+      	padding:0 5px;
+      }
+      .product-grid--borderless{
+      	
+      }
+      .template-collection .collection__nav--filter.collection__nav--sort, .template-collection .collection__products{
+      	padding:0 45px;
+      }
+      
+      .top-group-filters{
+      	display:none;
+      }
+      .collection__section__top-fixed .top-group-filters{
+      	    display: flex;
+    		margin-right: auto;
+      }
+      
+      .collection__section__top-fixed .collection__sidebar{
+      	display:none;
+      }
+      
+      .top-group-filters select{
+      	border:none;
+      }
+      .top-filter-btn{
+      	display:none;
+        padding: 9px 16px;
+        margin: 3px 0;
+        font-size: var(---font-size-base);
+      }
+      .collection__section__top-fixed .top-filter-btn{
+      	display:block;
+      }
+      .collection__section__top-fixed .popout--group{
+      	display:none;
+      }
+      .product-link .jdgm-widget{
+      	display:none!important;
+      }
+      
+      
+      .collection .product-item .product__grid__stars{      
+        position: absolute;
+        top: 5px;
+        right: 13px;
+        opacity:0;
+        z-index:99;
+      }
+      .collection .product-item .product-item__image:hover .product__grid__stars{
+      	opacity:1;
+      }
+      
+      .slideup>button:after{
+      	background:transparent;
+      }
+      .slideup{
+      	background:var(--green);
+      }
+      .slideup>button{
+      	color:var(--white);
+      }
+      
+      .product-grid__rating__stars svg.icon path, .product-grid__rating__stars svg path{
+      	    fill: #FFD600;
+      }
+      .product-grid__rating__stars--transparent svg path{
+      	    stroke: #fff!important;
+      }
+      
+      .image-carousel{
+      	margin-bottom:30px;
+      }
+      .image-carousel .logos__logo{
+      	width:auto;
+      }
+      .image-carousel .logos__slider{
+      	width:auto;
+        margin:0;
+      }
+      
+      
+      
+      .image-carousel .logos__title {
+    text-align: left!important;
+    padding-left: 0;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: var(--font_jost);
+    padding-bottom: 0px;
+      margin:0;
+}
